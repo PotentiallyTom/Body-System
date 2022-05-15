@@ -74,6 +74,10 @@ class HumanIntestine : OrganStats
         this.isRequiredForLife = false;
     }
 }
+class HumanSpine : OrganStats
+{
+
+}
 
 class HumanStomach : OrganStats
 {
@@ -83,7 +87,7 @@ class HumanSpleen : OrganStats
 {
 
 }
-class HumanLungs : OrganStats
+class HumanLung : OrganStats
 {
 
 }
@@ -91,33 +95,37 @@ class HumanAirway : OrganStats
 {
 
 }
-class HumanKidneys : OrganStats
+class HumanKidney : OrganStats
 {
 
 }
-class HumanBladder
+class HumanBladder : OrganStats
 {
 
 }
 
 //Head
-class HumanBrain
+class HumanBrain : OrganStats
 {
 
 }
-class HumanEye
+class HumanEye : OrganStats
 {
 
 }
-class HumanEar
+class HumanEar : OrganStats
 {
 
 }
-class HumanTounge
+class HumanTounge : OrganStats
 {
 
 }
-class HumanNose
+class HumanNose : OrganStats
 {
 
+}
+class HumanJaw : OrganStats
+{
+    
 }
