@@ -25,7 +25,7 @@ class HumanFinger : OrganStats
 {
     public HumanFinger()
     {
-        Set(Creature_Stats.Manipulation, 40);
+        Set(Creature_Stats.Manipulation, 20);
     }
 }
 
@@ -71,12 +71,18 @@ class HumanIntestine : OrganStats
     public HumanIntestine()
     {
         Set(Creature_Stats.Digestion, 50);
-        this.isRequiredForLife = false;
+        this.isRequiredForLife = true;
     }
 }
 class HumanSpine : OrganStats
 {
-
+    public HumanSpine()
+    {
+        Set(Creature_Stats.Mobility, 100);
+        Set(Creature_Stats.Mobility, 100);
+        Set(Creature_Stats.Core_Strength, 60);
+        this.isRequiredForLife = true;
+    }
 }
 
 class HumanStomach : OrganStats
@@ -127,5 +133,5 @@ class HumanNose : OrganStats
 }
 class HumanJaw : OrganStats
 {
-    
+
 }
